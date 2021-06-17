@@ -14,7 +14,7 @@ parameters:
   application: Myapp
 `` ``
 
-Then start an agent puppet, with the possibility of using the _instana_agent_ tag:
+Then start an puppet agent, with the possibility of using the _instana_agent_ tag:
 `` bash
 sudo puppet agent -t --tags instana_agent
 ``
@@ -23,7 +23,7 @@ sudo puppet agent -t --tags instana_agent
 
 ## Personalization
 
-In order to allow improved customization, a module system has been set up and allows to date to facilitate the addition of configuration on specific technologies:
+In order to allow improved customization, a module system has been set up and allows  addition of configuration on specific technologies:
 * statsd
 * repeat
 * php
