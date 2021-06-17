@@ -35,9 +35,9 @@ This list can be extended by adding the necessary classes to the puppet module. 
 
 The configuration files for the different modules must be generated in the form `configuration-techno.yaml` and will be loaded in system order (generally ascii / alphabetical order). Keep in mind that the latest files overload the previous ones.
 
-### Using an already existing techno
+### Using an already existing technology
 
-To activate a module you must have at least for example (for the statsd techno):
+To activate a module you must have at least for example (for the statsd technology):
 
 `` yaml
   instana_agent :: modules :: statsd:
